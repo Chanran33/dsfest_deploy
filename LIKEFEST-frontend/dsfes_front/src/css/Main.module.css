@@ -113,6 +113,15 @@
 
 .instagram{
   color:#C4C4C4;
+  display: flex;
+}
+.instimg{
+  color:#C4C4C4;
+  display: flex;
+}
+.instaID{
+  margin-left: 5px;
+    font-size: 12px;
 }
 .eventtag{
   display: inline;
