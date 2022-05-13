@@ -120,11 +120,12 @@
   height: 16px;
   background: #D0C7DE;
   border-radius: 5px;
-  font-family: 'Pretendard-Normal';
+  font-family: 'Pretendard-Medium';
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
   padding-left: 2px;
+  padding-top: 2px;
   padding-bottom: 2px;
   margin-left: 20px;
   margin-bottom: 5px;
