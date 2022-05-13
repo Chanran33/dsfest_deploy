@@ -28,6 +28,7 @@
   font-size: 14px;
   line-height: 17px; 
   margin-bottom:7px;
+  white-space: pre-wrap;
 }
 .locationDiv{
   display: flex;
