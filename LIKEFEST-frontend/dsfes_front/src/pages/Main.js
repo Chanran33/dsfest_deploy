@@ -64,10 +64,12 @@ const Main = () => {
             <p>멋쟁이사자처럼<br/>덕성여자대학교</p>
           </div>
           <div>
-            <p>정지영</p>
-            <p className={style.instagram}><img src={insta}/>youngrong.wrk</p>
+          <p>정지영</p>
+            <p className={style.instagram}>
+              <p className={style.instimg}><img src={insta} alt="인스타그램 로고"/></p>
+              <p className={style.instaID}>youngrong.wrk</p>
+            </p>
           </div>
-
         </div>
       </div>
     </div>
