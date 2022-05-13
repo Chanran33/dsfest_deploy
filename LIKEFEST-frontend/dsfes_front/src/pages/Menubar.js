@@ -53,12 +53,12 @@ const Menubar = () => {
   const location = useLocation();
 
   const links = {
-    "/Notice": ["총학생회에서", <br />, "알려드립니다 📢"],
+    "/Notice": ["총학생회에서", <br />, "알려드립니다."],
     "/TimeTable": ["TIME TABLE"],
     "/Event": ["새로워진", <br />, "덕새를 찾아라"],
     "/Board": ["덕우들의 새로고침", <br />, "어떠셨나요?"],
     // 은빈 :  adminntc, update 추가
-    "/adminntc": ["총학생회용", <br />, "페이지 입니다. 📢"],
+    "/adminntc": ["총학생회용", <br />, "페이지 입니다."],
     "/update": ["총학생회용", <br />, "수정 페이지 입니다. "],
   };
 
