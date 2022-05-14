@@ -65,8 +65,8 @@
 	-o-border-radius: 7px; 
 	border-radius: 7px;	
 	text-align: center;	
-	opacity: 0;
-	z-index: 999;
+	/* opacity: 0;
+	z-index: 999; */
 	padding: 8px;	
 	position: absolute;
 	cursor: default;

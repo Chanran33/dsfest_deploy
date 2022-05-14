@@ -15,7 +15,26 @@
   /* margin-bottom: 15px; */
 }
 
+.htALL{
+  font-family: "Pretendard-bold";
+  background-color: #FD6060;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: auto;
+  height: auto;
+}
+.tagNone{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .htNotice {
+  margin-left: 13px;
   font-family: "Pretendard-bold";
   background-color: #4c966e;
   color: #fff;

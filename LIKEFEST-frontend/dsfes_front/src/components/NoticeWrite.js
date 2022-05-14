@@ -103,11 +103,11 @@ const NoticeWrite = () => {
     }
   };
 
-
+  //연산 최적화
   //usememo 최적화 연산 함수
   const textColor1 = useMemo(() => {
     return tag1 ? "#4C966E" : "#c4c4c4";
-  }, [tag1]);
+  }, [tag1]);//tag1의 값이 변할때마다 return문이 연산된다. 변하지 않을때는 재연산되지 않는다.
   //tag1가 변화하면 윗줄이 동작함 
   const textColor2 = useMemo(() => {
     return tag2 ? "#d0c7de" : "#c4c4c4";

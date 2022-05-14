@@ -17,4 +17,4 @@ const BoardItem = ({ text }) => {
   );
 };
 
-export default BoardItem;
+export default React.memo(BoardItem);
