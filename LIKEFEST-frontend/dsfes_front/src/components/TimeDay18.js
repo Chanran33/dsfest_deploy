@@ -27,10 +27,9 @@ const TimeDay18 = () => {
       <div className={[s.cell, s.cell10].join(' ')}></div>
       {/* TimeItem */}
       <TimeItem title={"주간수익사업"} time={"11:00~15:00"} location={"영근터"} color={"#4C966E"} height={"399px"} name={s.item1} />
-      <TimeItem title={"영화 상영(1987)"} time={"14:00~16:30"} location={"영근터"} color={"#D0C7DE"} height={"249px"} name={s.item2} />
-      <TimeItem title={"재학생 무대"} time={"17:00~17:40"} location={"영근터"} color={"#E7D0B6"} height={"84px"} name={s.item3} />
-      <TimeItem title={"동아리 무대"} time={"17:50~19:20"} location={"영근터"} color={"#E7D0B6"} height={"116px"} name={s.item4} />
-      <TimeItem title={"공연"} time={"19:30~20:00"} location={"영근터"} color={"#E7D0B6"} height={"83px"} name={s.item5} />
+      <TimeItem title={"영화 상영(1987)"} time={"14:30~16:50"} location={"영근터"} color={"#D0C7DE"} height={"237px"} name={s.item2} />
+      <TimeItem title={"'새로고침의 시작'\n무대공연"} time={"17:00~20:00"} location={"영근터"} color={"#E7D0B6"} height={"292px"} name={s.item3} />
+      <TimeItem title={"공연"} time={"20:00~20:30"} location={"영근터"} color={"#E7D0B6"} height={"83px"} name={s.item5} />
     </div >
   );
 };
