@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NoticeItem from "./NoticeItem";
+const URL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001'
 
 const NoticeListV2 = () => {
   const [contents, setContents] = useState([]);
   // 데이터 불러오기
   useEffect(() => {
     axios
-      .get("http://localhost:3001/notice")
+      .get(URL + "/api/notice")
       .then((res) => {
         const filtering = [];
         for (var i = 0; i < res.data.length; i++) {
