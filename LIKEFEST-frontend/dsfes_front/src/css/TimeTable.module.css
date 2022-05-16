@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: #FFFFFF;
-  width:81.06%;
+  width:100%;
   margin:0 auto;
 }
 .navBar :nth-child(2){
@@ -13,7 +13,8 @@
 .navItem{
   background-color: #FFFFFF;
   color:#ACC7B8;
-  width:102px;
+  max-width: 102px;
+  width:24.75%;
   height: 61px;
   display: flex;
   align-items: center;
