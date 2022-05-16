@@ -3,6 +3,8 @@
   display: flex;
   justify-content: center;
   background-color: #FFFFFF;
+  width:81.06%;
+  margin:0 auto;
 }
 .navBar :nth-child(2){
   margin-left:14px;

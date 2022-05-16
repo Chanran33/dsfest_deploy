@@ -1,20 +1,24 @@
 .body18{
   display: grid;
-  grid-template-columns: 78px 167px 167px;
+  grid-template-columns: 18.9% 40.5% 40.5%;
+  /* grid-template-columns: 78px 167px 167px; */
   grid-template-rows: repeat(10,100px);
   grid-auto-flow: column;
   justify-items: center;
   justify-content: center;
   margin-top:40px;
+  margin-left:4.25%;
 }
 .body19, .body20{
   display: grid;
-  grid-template-columns: 78px 167px 167px;
+  grid-template-columns: 18.9% 40.5% 40.5%;
+  /* grid-template-columns: 78px 167px 167px; */
   grid-template-rows: repeat(12,100px);
   grid-auto-flow: column;
   justify-items: center;
   justify-content: center;
   margin-top:40px;
+  margin-left:4.25%;
 }
 .timeTitle{
   font-family: 'GmarketSansMedium';
