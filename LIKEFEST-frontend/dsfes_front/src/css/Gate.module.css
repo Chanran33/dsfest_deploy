@@ -14,6 +14,84 @@
 
 
 }
+@media (max-width: 360px){
+
+    .keyword1{
+        display: block;
+        top: 40px;
+        left: 13.5px;
+        width: 190px;
+    
+    }
+    .keyword2{
+        display: block;
+        top: 88.62px;
+        right: 16.59px !important;
+        /* left: 215.56px; */
+        width: 190px;
+    }
+    .keyword3{
+        display: block;
+        top: 135px !important;
+        left: 43px !important;
+        width: 190px;
+    }
+    .keyword4{
+        display: block;
+        top: 180px !important;
+        right: 36px;
+        /* left: 185.56px; */
+        width: 190px;
+    }
+    .keyword5{
+        display: block;
+        top: 205px !important;
+        left: 10px !important;
+        width: 190px;
+    }
+}
+@media (min-width:550px) {
+    
+    .keywordDiv img{
+        position: absolute;
+        /* width: 190px; */
+        width: 36% !important; 
+    }
+    .keyword1{
+        display: block;
+        top: 40px;
+        left: 60.5px !important;
+        width: 190px;
+    
+    }
+    .keyword2{
+        display: block;
+        top: 88.62px;
+        right: 70.59px !important;
+        /* left: 215.56px; */
+        width: 190px;
+    }
+    .keyword3{
+        display: block;
+        top: 150px !important;
+        left: 110px !important;
+        width: 190px;
+    }
+    .keyword4{
+        display: block;
+        top: 215px !important;
+        right: 90px !important;
+        /* left: 185.56px; */
+        width: 190px;
+    }
+    .keyword5{
+        display: block;
+        top: 250px !important;
+        left: 70px !important;
+        width: 190px;
+    }
+
+}
 /*밑에 있는 아이들이 우선순위가 높으므로 !important*/
 .gradient{
     background : linear-gradient(180deg, #EAEADC , rgba(234, 234, 220, 0) 63%);
@@ -47,14 +125,17 @@
 
 .keywordDiv{
     position: relative;
-    width: 412px;
+    /* width: 100%; */
     height: 268px;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    margin-left: 27.79px;
+    margin-right: 21.59px;
     margin-bottom: 29px;
 }
 .keywordDiv img{
     position: absolute;
-    width: 190px;
+    /* width: 190px; */
+    width: 44.67%;
 }
 .keyword1{
     display: block;
@@ -67,24 +148,26 @@
     display: block;
     top: 88.62px;
     right: 10.59px;
+    /* left: 215.56px; */
     width: 190px;
 }
 .keyword3{
     display: block;
-    top: 153px;
+    top: 145px;
     left: 60px;
     width: 190px;
 }
 .keyword4{
     display: block;
-    top: 220px;
+    top: 205px;
     right: 36px;
+    /* left: 185.56px; */
     width: 190px;
 }
 .keyword5{
     display: block;
-    top: 255px;
-    left: 13px;
+    top: 235px;
+    left: 20px;
     width: 190px;
 }
 
