@@ -10,9 +10,7 @@ const TimeTable = () => {
   const NavClickHandle = useCallback((e, num) => {
     setNavActive(num);
   })
-  useEffect(() => {
-    console.log(NavActive);
-  }, [NavActive])
+
   const UI = { "18": <TimeDay18></TimeDay18>, "19": <TimeDay19></TimeDay19>, "20": <TimeDay20></TimeDay20> }
 
   return (
