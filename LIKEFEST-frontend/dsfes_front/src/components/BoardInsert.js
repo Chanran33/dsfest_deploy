@@ -35,28 +35,34 @@ const BoardInsert = ({ texts, changeTexts }) => {
   const handleSubmit = useCallback(
     (e) => {
       e.preventDefault();
-      axios
-        .post(URL + "/api/board", {
-          boText: text,
-        })
-        .then((res) => {
-          console.log("Success");
-          setText(""); //text 초기화
-          setInsertBody(styles.insertBody);
-          setInsert(styles.insert);
-
-          //front 추가 처리
-          const NewText = {
-            id: texts[texts.length - 1].id + 1,
+      if (text.trim() === '') {
+        console.log("오류 : 빈 값 입력")
+        return
+      } else {
+        axios
+          .post(URL + "/api/board", {
             boText: text,
-          };
+          })
+          .then((res) => {
+            console.log("Success");
+            setText(""); //text 초기화
+            setInsertBody(styles.insertBody);
+            setInsert(styles.insert);
 
-          changeTexts(NewText);
-        })
-        .catch((error) => {
-          console.log("Network Error : ", error);
-          console.log(">>>>>> URL " +URL);
-        });
+            //front 추가 처리
+            const NewText = {
+              id: texts[texts.length - 1].id + 1,
+              boText: text,
+            };
+
+            changeTexts(NewText);
+          })
+          .catch((error) => {
+            console.log("Network Error : ", error);
+            console.log(">>>>>> URL " + URL);
+          });
+      }
+
     },
     [changeTexts, text, texts]
   );
