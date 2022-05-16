@@ -36,7 +36,7 @@ const BoardInsert = ({ texts, changeTexts }) => {
     (e) => {
       e.preventDefault();
       if (text.trim() === '') {
-        console.log("오류 : 빈 값 입력")
+        // console.log("오류 : 빈 값 입력")
         return
       } else {
         axios

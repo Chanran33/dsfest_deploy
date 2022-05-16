@@ -17,18 +17,6 @@ const Menubar = () => {
   const MenuStateHandle = useCallback((e) => {
     setMenuActive(!menuActive);
   });
-  useEffect(
-    (e) => {
-      if (menuActive) {
-        console.log("열렸습니다.");
-        // setShow(true);
-      } else {
-        console.log("닫혔습니다.");
-        // setShow(false);
-      }
-    },
-    [menuActive]
-  );
   //페이지 이동 시, 메뉴 바 닫기
   const menuClose = useCallback((e) => {
     setMenuActive(false);
