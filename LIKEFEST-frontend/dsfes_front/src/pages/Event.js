@@ -41,9 +41,11 @@ const Event = () => {
 
   // 총학에서 정답을 받으면 아래 answer에 대입할 것
   const checkAnswer = () => {
+    // 정답 .있는 버전 없는 버전 추가
     const answer = "두려움 없는 여성들에게서 불꽃이 타오른다.";
+    const answer2 = "두려움 없는 여성들에게서 불꽃이 타오른다";
 
-    if (answer === userinput) {
+    if (answer === userinput || answer2 === userinput) {
       console.log("정답이지롱");
       setChoose(true);
     } else {
