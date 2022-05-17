@@ -18,7 +18,12 @@ const Main = () => {
        {duration : 1000}
       );
     })
-
+//새로고침하면 스크롤 위치를 상단으로 이동하도록 하기
+useEffect(() => {
+  window.onbeforeunload = function pushRefresh(){
+    window.scrollTo(0,0);
+  };
+},[]);
   return (
     <div>
       {/* 메인페이지에는 HeaderTitle이 필요없어서 삭제해도 되는데 일단 페이지 구분을 위해 남겨두긴 했습니다.
