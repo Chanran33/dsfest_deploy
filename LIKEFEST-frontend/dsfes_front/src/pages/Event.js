@@ -3,7 +3,7 @@
 정답, 오답시 뜨는 모달창은 태영님께 많이 도움받았습니다.
 */
 
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback,useEffect } from "react";
 import SuccessModal from "../components/SuccessModal";
 import styles from "../css/Event.module.css";
 import step1 from "../img/find_duksae/image_step1.png";
@@ -41,9 +41,11 @@ const Event = () => {
 
   // 총학에서 정답을 받으면 아래 answer에 대입할 것
   const checkAnswer = () => {
+    // 정답 .있는 버전 없는 버전 추가
     const answer = "두려움 없는 여성들에게서 불꽃이 타오른다.";
+    const answer2 = "두려움 없는 여성들에게서 불꽃이 타오른다";
 
-    if (answer === userinput) {
+    if (answer === userinput || answer2 === userinput) {
       console.log("정답이지롱");
       setChoose(true);
     } else {
@@ -52,7 +54,12 @@ const Event = () => {
       setChoose(false);
     }
   };
-
+//새로고침하면 스크롤 위치를 상단으로 이동하도록 하기
+useEffect(() => {
+  window.onbeforeunload = function pushRefresh(){
+    window.scrollTo(0,0);
+  };
+},[]);
   return (
     // event 페이지의 body 역할인 큰 틀의 div
     <div className={styles.wrap}>
