@@ -49,3 +49,12 @@
 | --- |
 | <img width="100" alt="taeyoung" src="https://user-images.githubusercontent.com/64454313/169699479-da5ac649-f506-4ea2-9c23-a1674ed72443.jpeg"> |
 | DB설계, 서버 구축 및 배포 |
+  
+## 서비스 미리보기
+
+| <center>메인화면</center> | <center>공지사항</center> | <center>이벤트</center> | <center>방명록</center> |
+| --- | --- | --- | --- |
+| <center><img width="200" alt="1" src="https://user-images.githubusercontent.com/62804036/170293450-1fa1bebb-72fc-41c2-9d00-4914260ca937.png"></center> | <center><img width="200" alt="2" src="https://user-images.githubusercontent.com/62804036/170293486-1b04da96-7361-4d1d-bb77-e28c4b7d4e87.png"></center> | <center><img width="200" alt="3" src="https://user-images.githubusercontent.com/62804036/170293518-49b32a8f-63cb-4a06-9107-9df04a37ec9a.png"></center> | <center><img width="200" alt="4" src="https://user-images.githubusercontent.com/62804036/170293554-cfa92e40-2eef-4513-8530-a15d9d51cdba.png"></center> | 
+
+
+
